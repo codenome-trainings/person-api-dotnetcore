@@ -1,0 +1,11 @@
+C:\Users\thiag\source\repos\PersonApi\PersonApi\bin\Debug\netcoreapp2.0\PersonApi.deps.json
+C:\Users\thiag\source\repos\PersonApi\PersonApi\bin\Debug\netcoreapp2.0\PersonApi.runtimeconfig.json
+C:\Users\thiag\source\repos\PersonApi\PersonApi\bin\Debug\netcoreapp2.0\PersonApi.runtimeconfig.dev.json
+C:\Users\thiag\source\repos\PersonApi\PersonApi\bin\Debug\netcoreapp2.0\PersonApi.dll
+C:\Users\thiag\source\repos\PersonApi\PersonApi\bin\Debug\netcoreapp2.0\PersonApi.pdb
+C:\Users\thiag\source\repos\PersonApi\PersonApi\obj\Debug\netcoreapp2.0\PersonApi.csprojAssemblyReference.cache
+C:\Users\thiag\source\repos\PersonApi\PersonApi\obj\Debug\netcoreapp2.0\PersonApi.csproj.CoreCompileInputs.cache
+C:\Users\thiag\source\repos\PersonApi\PersonApi\obj\Debug\netcoreapp2.0\PersonApi.AssemblyInfoInputs.cache
+C:\Users\thiag\source\repos\PersonApi\PersonApi\obj\Debug\netcoreapp2.0\PersonApi.AssemblyInfo.cs
+C:\Users\thiag\source\repos\PersonApi\PersonApi\obj\Debug\netcoreapp2.0\PersonApi.dll
+C:\Users\thiag\source\repos\PersonApi\PersonApi\obj\Debug\netcoreapp2.0\PersonApi.pdb

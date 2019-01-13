@@ -1,3 +1,5 @@
+
+
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using PersonApi.Business;
@@ -9,12 +11,11 @@ namespace PersonApi.Controllers
 {
     [ApiVersion("1.0")]
     [Route("api/v{version:apiVersion}/[controller]")]
-    public class PersonsController : ControllerBase
+    public class BooksController : ControllerBase
     {
-        private readonly IPersonBusiness _personBusiness;
+        private readonly IBookBusiness _bookBusiness;
 
-        public PersonsController(IPersonBusiness personService) => _personBusiness = personService;
-        
+        public BooksController(IBookBusiness bookBusiness) => _bookBusiness = bookBusiness;
 
         [HttpGet]
         [SwaggerResponse(200, Type = typeof(List<PersonVO>))]
@@ -22,7 +23,7 @@ namespace PersonApi.Controllers
         [SwaggerResponse(400)]
         [SwaggerResponse(401)]
         [TypeFilter(typeof(HyperMediaFilter))]
-        public IActionResult Get() => Ok(_personBusiness.FindAll());
+        public IActionResult Get() => Ok(_bookBusiness.FindAll());
 
         [HttpGet("{id}")]
         [SwaggerResponse(200, Type = typeof(PersonVO))]
@@ -32,11 +33,9 @@ namespace PersonApi.Controllers
         [TypeFilter(typeof(HyperMediaFilter))]
         public IActionResult Get(long id)
         {
-            var response = Ok(_personBusiness.FindById(id));
-
+            var response = _bookBusiness.FindById(id);
             if (response == null) return NotFound();
-
-            return response;
+            return Ok(response);
         }
 
         [HttpPost]
@@ -44,19 +43,16 @@ namespace PersonApi.Controllers
         [SwaggerResponse(400)]
         [SwaggerResponse(401)]
         [TypeFilter(typeof(HyperMediaFilter))]
-        public IActionResult Post([FromBody] PersonVO person) => person == null
+        public IActionResult Post([FromBody] BookVO book) => book == null
             ? (IActionResult) BadRequest()
-            : Ok(new ObjectResult(_personBusiness.Create(person)).Value);
-           
-        
-
+            : Ok(new ObjectResult(_bookBusiness.Create(book)));
+    
         [HttpPut]
         [SwaggerResponse(202, Type = typeof(PersonVO))]
         [SwaggerResponse(400)]
         [SwaggerResponse(401)]
         [TypeFilter(typeof(HyperMediaFilter))]
-        public IActionResult Put([FromBody] PersonVO person) => Ok(_personBusiness.Update(person));
-        
+        public IActionResult Put([FromBody] BookVO book) => Ok(_bookBusiness.Update(book));
 
         [HttpDelete("{id}")]
         [SwaggerResponse(204)]
@@ -65,7 +61,7 @@ namespace PersonApi.Controllers
         [TypeFilter(typeof(HyperMediaFilter))]
         public IActionResult Delete(long id)
         {
-            _personBusiness.Delete(id);
+            _bookBusiness.Delete(id);
             return NoContent();
         }
     }

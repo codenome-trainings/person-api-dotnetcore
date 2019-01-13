@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\thiag\.Rider2018.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\thiag\.Rider2018.3\config\extensions" t="IncludeRecursive" />
     <e p="C:\Users\thiag\.Rider2018.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\thiag\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_PersonApi.1392014880.00" t="ExcludeRecursive" />
     <e p="C:\Users\thiag\source\repos\PersonApi" t="IncludeFlat">
@@ -11,24 +12,54 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Business" t="Include">
+          <e p="IBookBusiness.cs" t="Include" />
           <e p="Implementations" t="Include">
+            <e p="BookBusinessImpl.cs" t="Include" />
             <e p="PersonBusinessImpl.cs" t="Include" />
           </e>
           <e p="IPersonBusiness.cs" t="Include" />
         </e>
         <e p="Controllers" t="Include">
+          <e p="BooksController.cs" t="Include" />
           <e p="PersonsController.cs" t="Include" />
         </e>
+        <e p="Data" t="Include">
+          <e p="Converter" t="Include">
+            <e p="IParser.cs" t="Include" />
+          </e>
+          <e p="Converters" t="Include">
+            <e p="BookConverter.cs" t="Include" />
+            <e p="PersonConverter.cs" t="Include" />
+          </e>
+          <e p="VO" t="Include">
+            <e p="BookVO.cs" t="Include" />
+            <e p="PersonVO.cs" t="Include" />
+          </e>
+        </e>
         <e p="db" t="Include">
-          <e p="dataset" t="Include" />
+          <e p="dataset" t="Include">
+            <e p="V1_0_4__Insert_data_in_books.sql" t="Include" />
+            <e p="V1_0_5__Insert_data_in_persons.sql" t="Include" />
+            <e p="V1_0_8__Reinsert_data_in_books.sql" t="Include" />
+          </e>
           <e p="migrations" t="Include">
-            <e p="V1_0_1_Create_Table_Persons.sql" t="Include" />
-            <e p="V1_0_2_Alter_Table_Persons.sql" t="Include" />
+            <e p="V1_0_1__Create_Table_Persons.sql" t="Include" />
+            <e p="V1_0_2__Alter_Table_Persons.sql" t="Include" />
             <e p="V1_0_3__Create_table_books.sql" t="Include" />
+            <e p="V1_0_6__Drop_table_books.sql" t="Include" />
+            <e p="V1_0_7__Recreate_table_books.sql" t="Include" />
           </e>
         </e>
         <e p="Evolve.json" t="Include" />
+        <e p="Hypermedia" t="Include">
+          <e p="BookEnricher.cs" t="Include" />
+          <e p="PersonEnricher.cs" t="Include" />
+        </e>
         <e p="Models" t="Include">
+          <e p="Base" t="Include">
+            <e p="BaseEntity.cs" t="Include" />
+          </e>
+          <e p="Book.cs" t="Include" />
           <e p="Context" t="Include">
             <e p="MySQLContext.cs" t="Include" />
           </e>
@@ -47,12 +78,19 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Repository" t="Include">
+          <e p="Generics" t="Include">
+            <e p="GenericRepository.cs" t="Include" />
+            <e p="IRepository.cs" t="Include" />
+          </e>
           <e p="Implementations" t="Include">
             <e p="PersonRepositoryImpl.cs" t="Include" />
           </e>
           <e p="IPersonRepository.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
+        <e p="utils" t="Include">
+          <e p="Fix4960ActionFilter.cs" t="Include" />
+        </e>
         <e p="wwwroot" t="Include" />
       </e>
       <e p="PersonApi.sln" t="IncludeFlat" />

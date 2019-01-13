@@ -8,7 +8,6 @@ namespace PersonApi.Repository.Implementations
 {
     public class PersonRepositoryImpl : IPersonRepository
     {
-
         private readonly MySQLContext _context;
 
         public PersonRepositoryImpl(MySQLContext context)
@@ -28,7 +27,6 @@ namespace PersonApi.Repository.Implementations
             {
                 throw e;
             }
-
         }
 
         public Person FindById(long id)

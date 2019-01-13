@@ -1,18 +1,19 @@
 using System.Collections.Generic;
+using PersonApi.Data.VO;
 using PersonApi.Models;
 
 namespace PersonApi.Business
 {
     public interface IPersonBusiness
     {
-        Person Create(Person person);
+        PersonVO Create(PersonVO person);
 
-        List<Person> FindAll();
+        List<PersonVO> FindAll();
 
-        Person FindById(long id);
+        PersonVO FindById(long id);
 
-        Person Update(Person person);
-        
+        PersonVO Update(PersonVO person);
+
         void Delete(long id);
     }
 }

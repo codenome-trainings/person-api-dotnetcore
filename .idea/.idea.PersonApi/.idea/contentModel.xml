@@ -38,6 +38,7 @@
         </e>
         <e p="db" t="Include">
           <e p="dataset" t="Include">
+            <e p="V1_0_10__Insert_data_in_users.sql" t="Include" />
             <e p="V1_0_4__Insert_data_in_books.sql" t="Include" />
             <e p="V1_0_5__Insert_data_in_persons.sql" t="Include" />
             <e p="V1_0_8__Reinsert_data_in_books.sql" t="Include" />
@@ -48,6 +49,7 @@
             <e p="V1_0_3__Create_table_books.sql" t="Include" />
             <e p="V1_0_6__Drop_table_books.sql" t="Include" />
             <e p="V1_0_7__Recreate_table_books.sql" t="Include" />
+            <e p="V1_0_9__Create_table_user.sql" t="Include" />
           </e>
         </e>
         <e p="Evolve.json" t="Include" />

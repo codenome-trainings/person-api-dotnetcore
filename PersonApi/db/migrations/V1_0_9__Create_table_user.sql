@@ -1,0 +1,8 @@
+CREATE TABLE `users` (
+  `id` INT(10) NOT NULL AUTO_INCREMENT,
+  `login` VARCHAR(50) UNIQUE NOT NULL,
+  `AccessKey` VARCHAR(50) NOT NULL,
+  PRIMARY KEY(`id`)
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB;

@@ -6,7 +6,6 @@ namespace PersonApi.Models.Base
     //[DataContract]
     public class BaseEntity
     {
-        [Key] [Column("id")]
-        public long? Id { get; set; }
+        [Key] [Column("id")] public long? Id { get; set; }
     }
 }

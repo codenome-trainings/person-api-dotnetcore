@@ -2,15 +2,12 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.AspNetCore.Rewrite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Net.Http.Headers;
-using Newtonsoft.Json.Serialization;
 using PersonApi.Business;
 using PersonApi.Business.Implementations;
 using PersonApi.Hypermedia;
@@ -68,9 +65,10 @@ namespace PersonApi
             services.AddMvc(options =>
                 {
                     options.RespectBrowserAcceptHeader = true;
-                    options.FormatterMappings.SetMediaTypeMappingForFormat("xml", MediaTypeHeaderValue.Parse("text/xml"));
-                    options.FormatterMappings.SetMediaTypeMappingForFormat("json", MediaTypeHeaderValue.Parse("application/json"));
-
+                    options.FormatterMappings.SetMediaTypeMappingForFormat("xml",
+                        MediaTypeHeaderValue.Parse("text/xml"));
+                    options.FormatterMappings.SetMediaTypeMappingForFormat("json",
+                        MediaTypeHeaderValue.Parse("application/json"));
                 })
                 .AddXmlSerializerFormatters();
 
@@ -78,34 +76,33 @@ namespace PersonApi
             filtertOptions.ObjectContentResponseEnricherList.Add(new BookEnricher());
             filtertOptions.ObjectContentResponseEnricherList.Add(new PersonEnricher());
             services.AddSingleton(filtertOptions);
-            
-            
+
+
             services.AddApiVersioning(option => option.ReportApiVersions = true);
 
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc(
-                    "v1.0",
+                    "v1",
                     new Info
                     {
                         Title = "RESTful API With ASP.NET Core 2.0",
-                        Version = "v1.0"
+                        Version = "v1"
                     });
             });
-            
-            
-            
+
+
             services.AddScoped<IPersonBusiness, PersonBusinessImpl>();
             services.AddScoped<IBookBusiness, BookBusinessImpl>();
 
 
             services.AddScoped<IPersonRepository, PersonRepositoryImpl>();
+            services.AddScoped<IBookRepository, BookRepositoryImpl>();
 
             services.AddScoped(
                 typeof(IRepository<>),
                 typeof(GenericRepository<>)
             );
-            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -115,10 +112,7 @@ namespace PersonApi
             loggerFactory.AddDebug();
 
             app.UseSwagger();
-            app.UseSwaggerUI(c =>
-            {
-                c.SwaggerEndpoint("/swagger/v1.0/swagger.json", "My API V1");
-            });
+            app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1"); });
 
             var option = new RewriteOptions();
             option.AddRedirect("^$", "swagger");
@@ -127,8 +121,8 @@ namespace PersonApi
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
-                    name: "DefaultApi",
-                    template: "{controller=Values}/{id?}");
+                    "DefaultApi",
+                    "{controller=Values}/{id?}");
             });
         }
     }

@@ -8,8 +8,8 @@ namespace PersonApi.Business.Implementations
 {
     public class PersonBusinessImpl : IPersonBusiness
     {
-        private readonly IRepository<Person> _repository;
         private readonly PersonConverter _converter;
+        private readonly IRepository<Person> _repository;
 
         public PersonBusinessImpl(IRepository<Person> repository)
         {

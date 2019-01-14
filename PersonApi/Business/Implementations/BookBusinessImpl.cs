@@ -8,8 +8,8 @@ namespace PersonApi.Business.Implementations
 {
     public class BookBusinessImpl : IBookBusiness
     {
-        private readonly IRepository<Book> _repository;
         private readonly BookConverter _converter;
+        private readonly IRepository<Book> _repository;
 
         public BookBusinessImpl(IRepository<Book> repository)
         {

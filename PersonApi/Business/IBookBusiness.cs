@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using PersonApi.Data.VO;
-using PersonApi.Models;
 
 namespace PersonApi.Business
 {

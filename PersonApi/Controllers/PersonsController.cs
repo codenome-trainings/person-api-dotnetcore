@@ -8,13 +8,16 @@ using Tapioca.HATEOAS;
 namespace PersonApi.Controllers
 {
     [ApiVersion("1.0")]
-    [Route("api/v{version:apiVersion}/[controller]")]
+    [Route("api/[controller]/v{version:apiVersion}")]
     public class PersonsController : ControllerBase
     {
         private readonly IPersonBusiness _personBusiness;
 
-        public PersonsController(IPersonBusiness personService) => _personBusiness = personService;
-        
+        public PersonsController(IPersonBusiness personService)
+        {
+            _personBusiness = personService;
+        }
+
 
         [HttpGet]
         [SwaggerResponse(200, Type = typeof(List<PersonVO>))]
@@ -22,7 +25,10 @@ namespace PersonApi.Controllers
         [SwaggerResponse(400)]
         [SwaggerResponse(401)]
         [TypeFilter(typeof(HyperMediaFilter))]
-        public IActionResult Get() => Ok(_personBusiness.FindAll());
+        public IActionResult Get()
+        {
+            return Ok(_personBusiness.FindAll());
+        }
 
         [HttpGet("{id}")]
         [SwaggerResponse(200, Type = typeof(PersonVO))]
@@ -44,19 +50,24 @@ namespace PersonApi.Controllers
         [SwaggerResponse(400)]
         [SwaggerResponse(401)]
         [TypeFilter(typeof(HyperMediaFilter))]
-        public IActionResult Post([FromBody] PersonVO person) => person == null
-            ? (IActionResult) BadRequest()
-            : Ok(new ObjectResult(_personBusiness.Create(person)).Value);
-           
-        
+        public IActionResult Post([FromBody] PersonVO person)
+        {
+            return person == null
+                ? (IActionResult) BadRequest()
+                : Ok(new ObjectResult(_personBusiness.Create(person)).Value);
+        }
+
 
         [HttpPut]
         [SwaggerResponse(202, Type = typeof(PersonVO))]
         [SwaggerResponse(400)]
         [SwaggerResponse(401)]
         [TypeFilter(typeof(HyperMediaFilter))]
-        public IActionResult Put([FromBody] PersonVO person) => Ok(_personBusiness.Update(person));
-        
+        public IActionResult Put([FromBody] PersonVO person)
+        {
+            return Ok(_personBusiness.Update(person));
+        }
+
 
         [HttpDelete("{id}")]
         [SwaggerResponse(204)]

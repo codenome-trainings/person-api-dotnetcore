@@ -82,7 +82,9 @@
             <e p="GenericRepository.cs" t="Include" />
             <e p="IRepository.cs" t="Include" />
           </e>
+          <e p="IBookRepository.cs" t="Include" />
           <e p="Implementations" t="Include">
+            <e p="BookRepositoryImpl.cs" t="Include" />
             <e p="PersonRepositoryImpl.cs" t="Include" />
           </e>
           <e p="IPersonRepository.cs" t="Include" />

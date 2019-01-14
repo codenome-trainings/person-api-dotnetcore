@@ -1,65 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/PersonApi/Controllers/PersonsController.cs" line="46" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/PersonApi/Controllers/PersonsController.cs" line="52" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="062c53a7-4ba0-42d8-ac4f-4033c5ef3e13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PersonApi/Business/Implementations/BookBusinessImpl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PersonApi/Controllers/BooksController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PersonApi/Data/Converter/IParser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PersonApi/Data/Converters/BookConverter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PersonApi/Data/Converters/PersonConverter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PersonApi/Data/VO/BookVO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PersonApi/Data/VO/PersonVO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PersonApi/Hypermedia/BookEnricher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PersonApi/Hypermedia/PersonEnricher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PersonApi/Models/Base/BaseEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PersonApi/Models/Book.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PersonApi/Repository/Generics/GenericRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PersonApi/Repository/Generics/IRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PersonApi/db/dataset/V1_0_4__Insert_data_in_books.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PersonApi/db/dataset/V1_0_5__Insert_data_in_persons.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PersonApi/db/dataset/V1_0_8__Reinsert_data_in_books.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PersonApi/db/migrations/V1_0_6__Drop_table_books.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PersonApi/db/migrations/V1_0_7__Recreate_table_books.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PersonApi/utils/Fix4960ActionFilter.cs" afterDir="false" />
+    <list default="true" id="062c53a7-4ba0-42d8-ac4f-4033c5ef3e13" name="Default Changelist" comment="Mudando Remote">
+      <change afterPath="$PROJECT_DIR$/PersonApi/Repository/IBookRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PersonApi/Repository/Implementations/BookRepositoryImpl.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PersonApi/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PersonApi/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PersonApi/.idea/dataSources/61fc0a6b-3d2e-49ea-ad9f-2301c2324d2b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PersonApi/.idea/dataSources/61fc0a6b-3d2e-49ea-ad9f-2301c2324d2b.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PersonApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PersonApi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/PersonApi/DesignTimeBuild/.dtbcache" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/PersonApi/DesignTimeBuild/.dtbcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/PersonApi/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/PersonApi/v15/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonApi.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonApi/Business/IBookBusiness.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/Business/IBookBusiness.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PersonApi/Business/IPersonBusiness.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/Business/IPersonBusiness.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonApi/Business/Implementations/BookBusinessImpl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/Business/Implementations/BookBusinessImpl.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PersonApi/Business/Implementations/PersonBusinessImpl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/Business/Implementations/PersonBusinessImpl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonApi/Controllers/BooksController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/Controllers/BooksController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PersonApi/Controllers/PersonsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/Controllers/PersonsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonApi/Evolve.json" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/Evolve.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonApi/Models/Context/MySQLContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/Models/Context/MySQLContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonApi/Data/Converters/BookConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/Data/Converters/BookConverter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonApi/Data/Converters/PersonConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/Data/Converters/PersonConverter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonApi/Data/VO/BookVO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/Data/VO/BookVO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonApi/Data/VO/PersonVO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/Data/VO/PersonVO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonApi/Hypermedia/BookEnricher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/Hypermedia/BookEnricher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonApi/Hypermedia/PersonEnricher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/Hypermedia/PersonEnricher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonApi/Models/Base/BaseEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/Models/Base/BaseEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonApi/Models/Book.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/Models/Book.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PersonApi/Models/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/Models/Person.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonApi/PersonApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/PersonApi.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonApi/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonApi/Repository/Implementations/PersonRepositoryImpl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/Repository/Implementations/PersonRepositoryImpl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonApi/Repository/Generics/GenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/Repository/Generics/GenericRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PersonApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonApi/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonApi/bin/Debug/netcoreapp2.0/PersonApi.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/bin/Debug/netcoreapp2.0/PersonApi.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PersonApi/bin/Debug/netcoreapp2.0/PersonApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/bin/Debug/netcoreapp2.0/PersonApi.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PersonApi/bin/Debug/netcoreapp2.0/PersonApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/bin/Debug/netcoreapp2.0/PersonApi.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonApi/bin/Debug/netcoreapp2.0/db/migrations/V1_0_1_Create_Table_Persons.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonApi/bin/Debug/netcoreapp2.0/db/migrations/V1_0_2_Alter_Table_Persons.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonApi/db/migrations/V1_0_1_Create_Table_Persons.sql" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/db/migrations/V1_0_1__Create_Table_Persons.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonApi/db/migrations/V1_0_2_Alter_Table_Persons.sql" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/db/migrations/V1_0_2__Alter_Table_Persons.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonApi/db/migrations/V1_0_3__Create_table_books.sql" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/db/migrations/V1_0_3__Create_table_books.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonApi/obj/Debug/netcoreapp2.0/PersonApi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/obj/Debug/netcoreapp2.0/PersonApi.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonApi/obj/Debug/netcoreapp2.0/PersonApi.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/obj/Debug/netcoreapp2.0/PersonApi.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PersonApi/obj/Debug/netcoreapp2.0/PersonApi.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/obj/Debug/netcoreapp2.0/PersonApi.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonApi/obj/Debug/netcoreapp2.0/PersonApi.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/obj/Debug/netcoreapp2.0/PersonApi.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PersonApi/obj/Debug/netcoreapp2.0/PersonApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/obj/Debug/netcoreapp2.0/PersonApi.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PersonApi/obj/Debug/netcoreapp2.0/PersonApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/obj/Debug/netcoreapp2.0/PersonApi.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonApi/obj/PersonApi.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/obj/PersonApi.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonApi/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonApi/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonApi/utils/Fix4960ActionFilter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PersonApi/utils/Fix4960ActionFilter.cs" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,26 +73,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PersonApi/Controllers/BooksController.cs">
+        <entry file="file://$PROJECT_DIR$/PersonApi/Business/Implementations/BookBusinessImpl.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="60" column="46" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+            <state relative-caret-position="600">
+              <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
               <folding>
-                <marker date="1547409074922" expanded="true" signature="8:182" ph="..." />
-                <marker date="1547409074922" expanded="true" signature="215:2171" ph="{...}" />
-                <marker date="1547409074922" expanded="true" signature="345:2169" ph="{...}" />
-                <marker date="1547409074922" expanded="true" signature="1051:1212" ph="{...}" />
-                <marker date="1547409074922" expanded="true" signature="2073:2163" ph="{...}" />
+                <marker date="1547412885763" expanded="true" signature="6:152" ph="..." />
+                <marker date="1547412885763" expanded="true" signature="198:1322" ph="{...}" />
+                <marker date="1547412885763" expanded="true" signature="250:1320" ph="{...}" />
+                <marker date="1547412885763" expanded="true" signature="426:530" ph="{...}" />
+                <marker date="1547412885763" expanded="true" signature="573:752" ph="{...}" />
+                <marker date="1547412885763" expanded="true" signature="791:875" ph="{...}" />
+                <marker date="1547412885763" expanded="true" signature="916:999" ph="{...}" />
+                <marker date="1547412885763" expanded="true" signature="1042:1221" ph="{...}" />
+                <marker date="1547412885763" expanded="true" signature="1258:1314" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/d8/2e675e28/ControllerActionInvoker.cs">
+        <entry file="file://$PROJECT_DIR$/PersonApi/Controllers/BooksController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="247" column="8" selection-start-line="247" selection-start-column="8" selection-end-line="247" selection-end-column="8" />
+            <state relative-caret-position="345">
+              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+              <folding>
+                <marker date="1547412885810" expanded="true" signature="6:180" ph="..." />
+                <marker date="1547412885810" expanded="true" signature="213:2314" ph="{...}" />
+                <marker date="1547412885810" expanded="true" signature="341:2312" ph="{...}" />
+                <marker date="1547412885810" expanded="true" signature="461:523" ph="{...}" />
+                <marker date="1547412885810" expanded="true" signature="779:847" ph="{...}" />
+                <marker date="1547412885810" expanded="true" signature="1112:1273" ph="{...}" />
+                <marker date="1547412885810" expanded="true" signature="1516:1689" ph="{...}" />
+                <marker date="1547412885810" expanded="true" signature="1930:2001" ph="{...}" />
+                <marker date="1547412885810" expanded="true" signature="2216:2306" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,24 +115,122 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PersonApi/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="106" column="14" lean-forward="true" selection-start-line="106" selection-start-column="14" selection-end-line="106" selection-end-column="14" />
+            <state relative-caret-position="926">
+              <caret line="99" column="66" selection-start-line="99" selection-start-column="66" selection-end-line="99" selection-end-column="66" />
               <folding>
-                <marker date="1547409719524" expanded="false" signature="6:762" ph="..." />
-                <marker date="1547409719524" expanded="true" signature="783:4770" ph="{...}" />
-                <marker date="1547409719524" expanded="true" signature="810:4768" ph="{...}" />
-                <marker date="1547409719524" expanded="true" signature="1020:1154" ph="{...}" />
-                <marker date="1547409719524" expanded="true" signature="1378:3906" ph="{...}" />
-                <marker date="1547409719524" expanded="true" signature="1643:2180" ph="{...}" />
-                <marker date="1547409719524" expanded="true" signature="1980:2122" ph="{...}" />
-                <marker date="1547409719524" expanded="true" signature="2216:2356" ph="{...}" />
-                <marker date="1547409719524" expanded="true" signature="2396:2751" ph="{...}" />
-                <marker date="1547409719524" expanded="true" signature="3238:3509" ph="{...}" />
-                <marker date="1547409719524" expanded="true" signature="3360:3493" ph="{...}" />
-                <marker date="1547409719524" expanded="true" signature="4124:4762" ph="{...}" />
-                <marker date="1547409719524" expanded="true" signature="4313:4419" ph="{...}" />
-                <marker date="1547409719524" expanded="true" signature="4589:4750" ph="{...}" />
+                <marker date="1547413436493" expanded="false" signature="6:650" ph="..." />
+                <marker date="1547413436493" expanded="true" signature="671:4653" ph="{...}" />
+                <marker date="1547413436493" expanded="true" signature="698:4651" ph="{...}" />
+                <marker date="1547413436493" expanded="true" signature="908:1042" ph="{...}" />
+                <marker date="1547413436493" expanded="true" signature="1266:3847" ph="{...}" />
+                <marker date="1547413436493" expanded="true" signature="1531:2068" ph="{...}" />
+                <marker date="1547413436493" expanded="true" signature="1868:2010" ph="{...}" />
+                <marker date="1547413436493" expanded="true" signature="2104:2244" ph="{...}" />
+                <marker date="1547413436493" expanded="true" signature="2284:2686" ph="{...}" />
+                <marker date="1547413436493" expanded="true" signature="3149:3416" ph="{...}" />
+                <marker date="1547413436493" expanded="true" signature="3269:3400" ph="{...}" />
+                <marker date="1547413436493" expanded="true" signature="4065:4645" ph="{...}" />
+                <marker date="1547413436493" expanded="true" signature="4488:4633" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PersonApi/Repository/IBookRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding>
+                <marker date="1547413215198" expanded="true" signature="6:57" ph="..." />
+                <marker date="1547413215198" expanded="true" signature="89:329" ph="{...}" />
+                <marker date="1547413215198" expanded="true" signature="128:327" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PersonApi/Repository/Implementations/PersonRepositoryImpl.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="101" column="12" lean-forward="true" selection-start-line="101" selection-start-column="12" selection-end-line="103" selection-end-column="14" />
+              <folding>
+                <marker date="1547346059857" expanded="false" signature="6:122" ph="..." />
+                <marker date="1547346059857" expanded="true" signature="170:2564" ph="{...}" />
+                <marker date="1547346059857" expanded="true" signature="230:2562" ph="{...}" />
+                <marker date="1547346059857" expanded="true" signature="343:395" ph="{...}" />
+                <marker date="1547346059857" expanded="true" signature="440:698" ph="{...}" />
+                <marker date="1547346059857" expanded="true" signature="466:603" ph="{...}" />
+                <marker date="1547346059857" expanded="true" signature="635:688" ph="{...}" />
+                <marker date="1547346059857" expanded="true" signature="739:1080" ph="{...}" />
+                <marker date="1547346059857" expanded="true" signature="765:947" ph="{...}" />
+                <marker date="1547346059857" expanded="true" signature="979:1070" ph="{...}" />
+                <marker date="1547346059857" expanded="true" signature="1119:1395" ph="{...}" />
+                <marker date="1547346059857" expanded="true" signature="1145:1262" ph="{...}" />
+                <marker date="1547346059857" expanded="true" signature="1294:1385" ph="{...}" />
+                <marker date="1547346059857" expanded="true" signature="1440:1950" ph="{...}" />
+                <marker date="1547346059857" expanded="true" signature="1516:1817" ph="{...}" />
+                <marker date="1547346059857" expanded="true" signature="1849:1940" ph="{...}" />
+                <marker date="1547346059857" expanded="true" signature="1987:2405" ph="{...}" />
+                <marker date="1547346059857" expanded="true" signature="2013:2274" ph="{...}" />
+                <marker date="1547346059857" expanded="true" signature="2306:2395" ph="{...}" />
+                <marker date="1547346059857" expanded="true" signature="2443:2556" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PersonApi/Repository/Implementations/BookRepositoryImpl.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+              <folding>
+                <marker date="1547413410749" expanded="true" signature="6:122" ph="..." />
+                <marker date="1547413410749" expanded="true" signature="170:2482" ph="{...}" />
+                <marker date="1547413410749" expanded="true" signature="226:2480" ph="{...}" />
+                <marker date="1547413410749" expanded="true" signature="346:398" ph="{...}" />
+                <marker date="1547413410749" expanded="true" signature="438:692" ph="{...}" />
+                <marker date="1547413410749" expanded="true" signature="464:597" ph="{...}" />
+                <marker date="1547413410749" expanded="true" signature="629:682" ph="{...}" />
+                <marker date="1547413410749" expanded="true" signature="731:1066" ph="{...}" />
+                <marker date="1547413410749" expanded="true" signature="757:933" ph="{...}" />
+                <marker date="1547413410749" expanded="true" signature="965:1056" ph="{...}" />
+                <marker date="1547413410749" expanded="true" signature="1103:1335" ph="{...}" />
+                <marker date="1547413410749" expanded="true" signature="1129:1240" ph="{...}" />
+                <marker date="1547413410749" expanded="true" signature="1272:1325" ph="{...}" />
+                <marker date="1547413410749" expanded="true" signature="1374:1874" ph="{...}" />
+                <marker date="1547413410749" expanded="true" signature="1448:1741" ph="{...}" />
+                <marker date="1547413410749" expanded="true" signature="1773:1864" ph="{...}" />
+                <marker date="1547413410749" expanded="true" signature="1911:2325" ph="{...}" />
+                <marker date="1547413410749" expanded="true" signature="1937:2194" ph="{...}" />
+                <marker date="1547413410749" expanded="true" signature="2226:2315" ph="{...}" />
+                <marker date="1547413410749" expanded="true" signature="2363:2474" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PersonApi/Repository/IPersonRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="12" selection-end-column="30" />
+              <folding>
+                <marker date="1547219654446" expanded="false" signature="6:57" ph="..." />
+                <marker date="1547219654446" expanded="true" signature="89:347" ph="{...}" />
+                <marker date="1547219654446" expanded="true" signature="130:345" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://61fc0a6b-3d2e-49ea-ad9f-2301c2324d2b/schema/rest_dotnetcore/table/persons">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -151,12 +238,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PersonApi/Data/VO/BookVO.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="330">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
-                <marker date="1547409482399" expanded="true" signature="6:106" ph="..." />
-                <marker date="1547409482399" expanded="true" signature="135:731" ph="{...}" />
-                <marker date="1547409482399" expanded="true" signature="188:729" ph="{...}" />
+                <marker date="1547412885728" expanded="true" signature="6:106" ph="..." />
+                <marker date="1547412885728" expanded="true" signature="135:636" ph="{...}" />
+                <marker date="1547412885728" expanded="true" signature="202:634" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -165,103 +252,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PersonApi/Data/VO/PersonVO.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="47" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="47" />
+            <state relative-caret-position="135">
+              <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
               <folding>
-                <marker date="1547407964156" expanded="true" signature="6:92" ph="..." />
-                <marker date="1547407964156" expanded="true" signature="121:764" ph="{...}" />
-                <marker date="1547407964156" expanded="true" signature="190:762" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PersonApi/Data/Converters/PersonConverter.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-              <folding>
-                <marker date="1547349817132" expanded="false" signature="6:135" ph="..." />
-                <marker date="1547349817132" expanded="true" signature="172:1453" ph="{...}" />
-                <marker date="1547349817132" expanded="true" signature="262:1451" ph="{...}" />
-                <marker date="1547349817132" expanded="true" signature="313:648" ph="{...}" />
-                <marker date="1547349817132" expanded="true" signature="419:637" ph="{...}" />
-                <marker date="1547349817132" expanded="true" signature="710:853" ph="{...}" />
-                <marker date="1547349817132" expanded="true" signature="899:1238" ph="{...}" />
-                <marker date="1547349817132" expanded="true" signature="1009:1227" ph="{...}" />
-                <marker date="1547349817132" expanded="true" signature="1300:1445" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PersonApi/Data/Converters/BookConverter.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-              <folding>
-                <marker date="1547393271023" expanded="false" signature="6:101" ph="..." />
-                <marker date="1547393271023" expanded="true" signature="138:1383" ph="{...}" />
-                <marker date="1547393271023" expanded="true" signature="218:1381" ph="{...}" />
-                <marker date="1547393271023" expanded="true" signature="265:588" ph="{...}" />
-                <marker date="1547393271023" expanded="true" signature="367:577" ph="{...}" />
-                <marker date="1547393271023" expanded="true" signature="638:965" ph="{...}" />
-                <marker date="1547393271023" expanded="true" signature="744:954" ph="{...}" />
-                <marker date="1547393271023" expanded="true" signature="1023:1164" ph="{...}" />
-                <marker date="1547393271023" expanded="true" signature="1232:1375" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PersonApi/Data/Converter/IParser.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-              <folding>
-                <marker date="1547393253662" expanded="true" signature="70:191" ph="{...}" />
-                <marker date="1547393253662" expanded="true" signature="107:189" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PersonApi/Hypermedia/PersonEnricher.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-              <folding>
-                <marker date="1547403686667" expanded="true" signature="6:109" ph="..." />
-                <marker date="1547403686667" expanded="true" signature="141:1564" ph="{...}" />
-                <marker date="1547403686667" expanded="true" signature="217:1562" ph="{...}" />
-                <marker date="1547403686667" expanded="true" signature="307:1556" ph="{...}" />
-                <marker date="1547403686667" expanded="true" signature="491:703" ph="{...}" />
-                <marker date="1547403686667" expanded="true" signature="769:983" ph="{...}" />
-                <marker date="1547403686667" expanded="true" signature="1049:1262" ph="{...}" />
-                <marker date="1547403686667" expanded="true" signature="1328:1519" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PersonApi/Hypermedia/BookEnricher.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-              <folding>
-                <marker date="1547409592607" expanded="true" signature="6:109" ph="..." />
-                <marker date="1547409592607" expanded="true" signature="141:1556" ph="{...}" />
-                <marker date="1547409592607" expanded="true" signature="213:1554" ph="{...}" />
-                <marker date="1547409592607" expanded="true" signature="301:1548" ph="{...}" />
-                <marker date="1547409592607" expanded="true" signature="483:695" ph="{...}" />
-                <marker date="1547409592607" expanded="true" signature="761:975" ph="{...}" />
-                <marker date="1547409592607" expanded="true" signature="1041:1254" ph="{...}" />
-                <marker date="1547409592607" expanded="true" signature="1320:1511" ph="{...}" />
+                <marker date="1547412885737" expanded="false" signature="6:92" ph="..." />
+                <marker date="1547412885737" expanded="true" signature="121:655" ph="{...}" />
+                <marker date="1547412885737" expanded="true" signature="190:653" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -279,6 +275,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>'</find>
+      <find>erson</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -299,6 +296,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5AA62FBB-BF3B-4FEB-A5EB-DE1BDAC36D61/fb/85d2fe36/HyperMediaFilter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/C8B8D504-8ADD-4D53-B849-4F24F5C4EE3F/04/df979d75/MySql.Data.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PersonApi/Data/Converters/BookConverter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="dummy://restClient/response5.json" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/PersonApi/Data/VO/BookVO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PersonApi/Hypermedia/BookEnricher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PersonApi/Data/Converters/PersonConverter.cs" root0="FORCE_HIGHLIGHTING" />
@@ -318,8 +316,11 @@
     <setting file="file://$PROJECT_DIR$/PersonApi/Repository/Generics/GenericRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PersonApi/Repository/Generics/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PersonApi/Models/Base/BaseEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.vs/config/applicationhost.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PersonApi/Models/Book.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/5c/73baaab0/ActionResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PersonApi/Repository/IBookRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PersonApi/Repository/Implementations/BookRepositoryImpl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CAAEC387-1ED9-4CD7-A34E-8AFED49FA62F/97/0a361d70/ControllerActionInvoker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/9d/af31994f/IStatusCodeActionResult.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -331,7 +332,6 @@
         <option value="$PROJECT_DIR$/PersonApi/Services/IPersonBusiness.cs" />
         <option value="$PROJECT_DIR$/PersonApi/Services/Implementations/PersonBusinessImpl.cs" />
         <option value="$PROJECT_DIR$/PersonApi/Repository/IPersonRepository.cs" />
-        <option value="$PROJECT_DIR$/PersonApi/Repository/Implementations/PersonRepositoryImpl.cs" />
         <option value="$PROJECT_DIR$/PersonApi/db/migrations/V1_0_1_Create_Table_Persons.sql" />
         <option value="$PROJECT_DIR$/PersonApi/db/migrations/V1_0_2_Alter_Table_Persons.sql" />
         <option value="$PROJECT_DIR$/PersonApi/appsettings.json" />
@@ -340,7 +340,6 @@
         <option value="$PROJECT_DIR$/PersonApi/db/migrations/V1_0_2__Alter_Table_Persons.sql" />
         <option value="$PROJECT_DIR$/PersonApi/db/dataset/V1_0_5__Insert_data_in_persons.sql" />
         <option value="$PROJECT_DIR$/PersonApi/Repository/Generics/IRepository.cs" />
-        <option value="$PROJECT_DIR$/PersonApi/Repository/Generics/GenericRepository.cs" />
         <option value="$PROJECT_DIR$/PersonApi/db/migrations/V1_0_4__Alter_table_books.sql" />
         <option value="$PROJECT_DIR$/PersonApi/db/dataset/V1_0_4__Insert_data_in_books.sql" />
         <option value="$PROJECT_DIR$/PersonApi/db/migrations/V1_0_3__Create_table_books.sql" />
@@ -352,28 +351,32 @@
         <option value="$PROJECT_DIR$/PersonApi/Data/Converters/IParser.cs" />
         <option value="$PROJECT_DIR$/PersonApi/Models/Person.cs" />
         <option value="$PROJECT_DIR$/PersonApi/Models/Base/BaseEntity.cs" />
-        <option value="$PROJECT_DIR$/PersonApi/Data/Converters/PersonConverter.cs" />
         <option value="$PROJECT_DIR$/PersonApi/Business/IPersonBusiness.cs" />
         <option value="$PROJECT_DIR$/PersonApi/Business/Implementations/PersonBusinessImpl.cs" />
         <option value="$PROJECT_DIR$/PersonApi/Models/Book.cs" />
         <option value="$PROJECT_DIR$/PersonApi/Data/Converter/IParser.cs" />
-        <option value="$PROJECT_DIR$/PersonApi/Data/Converters/BookConverter.cs" />
         <option value="$PROJECT_DIR$/PersonApi/Business/IBookBusiness.cs" />
-        <option value="$PROJECT_DIR$/PersonApi/Business/Implementations/BookBusinessImpl.cs" />
-        <option value="$PROJECT_DIR$/PersonApi/Hypermedia/PersonEnricher.cs" />
         <option value="$PROJECT_DIR$/PersonApi/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/PersonApi/Controllers/PersonsController.cs" />
-        <option value="$PROJECT_DIR$/PersonApi/Data/VO/PersonVO.cs" />
-        <option value="$PROJECT_DIR$/PersonApi/Data/VO/BookVO.cs" />
         <option value="$PROJECT_DIR$/PersonApi/Hypermedia/BookEnricher.cs" />
+        <option value="$PROJECT_DIR$/PersonApi/Hypermedia/PersonEnricher.cs" />
+        <option value="$PROJECT_DIR$/PersonApi/Data/VO/PersonVO.cs" />
+        <option value="$PROJECT_DIR$/PersonApi/Repository/Generics/GenericRepository.cs" />
+        <option value="$PROJECT_DIR$/PersonApi/Data/Converters/PersonConverter.cs" />
+        <option value="$PROJECT_DIR$/PersonApi/Data/Converters/BookConverter.cs" />
+        <option value="$PROJECT_DIR$/PersonApi/Business/Implementations/BookBusinessImpl.cs" />
+        <option value="$PROJECT_DIR$/PersonApi/Data/VO/BookVO.cs" />
         <option value="$PROJECT_DIR$/PersonApi/Controllers/BooksController.cs" />
+        <option value="$PROJECT_DIR$/PersonApi/Repository/IBookRepository.cs" />
+        <option value="$PROJECT_DIR$/PersonApi/Repository/Implementations/PersonRepositoryImpl.cs" />
+        <option value="$PROJECT_DIR$/PersonApi/Repository/Implementations/BookRepositoryImpl.cs" />
         <option value="$PROJECT_DIR$/PersonApi/Startup.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1937" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="width" value="1938" />
     <option name="height" value="2130" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -394,6 +397,19 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="PersonApi" type="24d0babc:SolutionExplorerModelNode" />
               <item name="PersonApi" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="PersonApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="PersonApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Business" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="PersonApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="PersonApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Business" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Implementations" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -421,6 +437,39 @@
               <item name="Data" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Converters" type="24d0babc:SolutionExplorerModelNode" />
             </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="PersonApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="PersonApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Data" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VO" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="PersonApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="PersonApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Hypermedia" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="PersonApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="PersonApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Repository" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="PersonApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="PersonApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Repository" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Generics" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="PersonApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="PersonApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Repository" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Implementations" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -440,6 +489,72 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:39356" />
+          <option name="urlPath" value="/api/books/v1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:39356" />
+          <option name="urlPath" value="/api/persons/v1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:39356" />
+          <option name="urlPath" value="/api" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -481,12 +596,27 @@
       <workItem from="1547297994229" duration="2780000" />
       <workItem from="1547327032747" duration="1656000" />
       <workItem from="1547330516942" duration="8886000" />
-      <workItem from="1547340673668" duration="29498000" />
+      <workItem from="1547340673668" duration="33487000" />
     </task>
+    <task id="LOCAL-00001" summary="HATEAOS e Swagger Adicionados.">
+      <created>1547410094451</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547410094451</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Mudando Remote">
+      <created>1547410204009</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547410204009</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64175000" />
+    <option name="totallyTimeSpent" value="68164000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -498,8 +628,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="1549" height="1704" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="3086" height="1712" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Image Layers" order="1" />
@@ -508,7 +637,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32951653" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.379771" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3778481" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3288804" />
@@ -518,15 +647,15 @@
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32974684" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.32974684" />
-      <window_info anchor="bottom" id="REST Client" order="13" weight="0.61012655" />
+      <window_info anchor="bottom" id="REST Client" order="13" weight="0.6100509" />
       <window_info anchor="bottom" id="Terminal" order="14" weight="0.3288804" />
       <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="16" weight="0.31870228" />
-      <window_info anchor="bottom" id="Database Console" order="17" weight="0.32989025" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.31835443" />
+      <window_info anchor="bottom" id="Database Console" order="17" weight="0.32951653" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="1" visible="true" weight="0.19476159" />
-      <window_info anchor="right" id="Errors In Solution" order="2" weight="0.32829505" />
-      <window_info anchor="right" id="Database" order="3" weight="0.16192994" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="1" visible="true" weight="0.13714474" />
+      <window_info anchor="right" id="Errors In Solution" order="2" weight="0.32773674" />
+      <window_info anchor="right" id="Database" order="3" weight="0.1618536" />
       <window_info anchor="right" id="Unit Tests Coverage" order="4" weight="0.32885003" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
@@ -538,6 +667,11 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HATEAOS e Swagger Adicionados." />
+    <MESSAGE value="Mudando Remote" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mudando Remote" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -549,48 +683,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://61fc0a6b-3d2e-49ea-ad9f-2301c2324d2b/schema/rest_dotnetcore/table/books">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://61fc0a6b-3d2e-49ea-ad9f-2301c2324d2b/schema/rest_dotnetcore/table/books">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://61fc0a6b-3d2e-49ea-ad9f-2301c2324d2b/schema/rest_dotnetcore/table/books">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://61fc0a6b-3d2e-49ea-ad9f-2301c2324d2b/schema/rest_dotnetcore/table/persons">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://61fc0a6b-3d2e-49ea-ad9f-2301c2324d2b/schema/rest_dotnetcore/table/persons">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://61fc0a6b-3d2e-49ea-ad9f-2301c2324d2b/schema/rest_dotnetcore/table/persons">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PersonApi/Models/Context/MySQLContext.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -707,12 +799,12 @@
         <state>
           <caret selection-end-line="20" selection-end-column="2" />
           <folding>
-            <marker date="1547347539946" expanded="true" signature="6:72" ph="..." />
-            <marker date="1547347539946" expanded="true" signature="101:579" ph="{...}" />
-            <marker date="1547347539946" expanded="true" signature="158:576" ph="{...}" />
-            <marker date="1547347539946" expanded="true" signature="236:258" ph="{...}" />
-            <marker date="1547347539946" expanded="true" signature="329:569" ph="{...}" />
-            <marker date="1547347539946" expanded="true" signature="459:558" ph="{...}" />
+            <marker date="1547412885596" expanded="true" signature="6:71" ph="..." />
+            <marker date="1547412885596" expanded="true" signature="98:516" ph="{...}" />
+            <marker date="1547412885596" expanded="true" signature="153:514" ph="{...}" />
+            <marker date="1547412885596" expanded="true" signature="229:249" ph="{...}" />
+            <marker date="1547412885596" expanded="true" signature="318:508" ph="{...}" />
+            <marker date="1547412885596" expanded="true" signature="445:498" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -722,9 +814,9 @@
         <state relative-caret-position="105">
           <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="18" selection-end-column="42" />
           <folding>
-            <marker date="1547349299322" expanded="false" signature="6:80" ph="..." />
-            <marker date="1547349299322" expanded="true" signature="108:479" ph="{...}" />
-            <marker date="1547349299322" expanded="true" signature="170:477" ph="{...}" />
+            <marker date="1547412885625" expanded="false" signature="6:80" ph="..." />
+            <marker date="1547412885625" expanded="true" signature="108:447" ph="{...}" />
+            <marker date="1547412885625" expanded="true" signature="170:445" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -734,21 +826,9 @@
         <state relative-caret-position="120">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
-            <marker date="1547349649286" expanded="false" signature="6:96" ph="..." />
-            <marker date="1547349649286" expanded="true" signature="129:261" ph="{...}" />
-            <marker date="1547349649286" expanded="true" signature="180:259" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PersonApi/Business/IPersonBusiness.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <marker date="1547388104738" expanded="false" signature="6:82" ph="..." />
-            <marker date="1547388104738" expanded="true" signature="112:353" ph="{...}" />
-            <marker date="1547388104738" expanded="true" signature="151:351" ph="{...}" />
+            <marker date="1547412885606" expanded="false" signature="6:96" ph="..." />
+            <marker date="1547412885606" expanded="true" signature="129:253" ph="{...}" />
+            <marker date="1547412885606" expanded="true" signature="180:251" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -758,95 +838,9 @@
         <state relative-caret-position="105">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
-            <marker date="1547392548127" expanded="false" signature="6:94" ph="..." />
-            <marker date="1547392548127" expanded="true" signature="122:462" ph="{...}" />
-            <marker date="1547392548127" expanded="true" signature="180:460" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PersonApi/Repository/Generics/IRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <marker date="1547333995690" expanded="false" signature="6:62" ph="..." />
-            <marker date="1547333995690" expanded="true" signature="103:345" ph="{...}" />
-            <marker date="1547333995690" expanded="true" signature="162:343" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PersonApi/Repository/Generics/GenericRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding>
-            <marker date="1547346060008" expanded="false" signature="6:164" ph="..." />
-            <marker date="1547346060008" expanded="true" signature="205:2010" ph="{...}" />
-            <marker date="1547346060008" expanded="true" signature="283:2008" ph="{...}" />
-            <marker date="1547346060008" expanded="true" signature="436:529" ph="{...}" />
-            <marker date="1547346060008" expanded="true" signature="562:812" ph="{...}" />
-            <marker date="1547346060008" expanded="true" signature="588:691" ph="{...}" />
-            <marker date="1547346060008" expanded="true" signature="723:776" ph="{...}" />
-            <marker date="1547346060008" expanded="true" signature="848:934" ph="{...}" />
-            <marker date="1547346060008" expanded="true" signature="968:1025" ph="{...}" />
-            <marker date="1547346060008" expanded="true" signature="1058:1472" ph="{...}" />
-            <marker date="1547346060008" expanded="true" signature="1132:1351" ph="{...}" />
-            <marker date="1547346060008" expanded="true" signature="1383:1436" ph="{...}" />
-            <marker date="1547346060008" expanded="true" signature="1509:1890" ph="{...}" />
-            <marker date="1547346060008" expanded="true" signature="1607:1795" ph="{...}" />
-            <marker date="1547346060008" expanded="true" signature="1657:1781" ph="{...}" />
-            <marker date="1547346060008" expanded="true" signature="1827:1880" ph="{...}" />
-            <marker date="1547346060008" expanded="true" signature="1928:2002" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PersonApi/Business/IBookBusiness.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <marker date="1547393541667" expanded="false" signature="6:82" ph="..." />
-            <marker date="1547393541667" expanded="true" signature="112:335" ph="{...}" />
-            <marker date="1547393541667" expanded="true" signature="149:333" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PersonApi/Business/Implementations/PersonBusinessImpl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="58" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="58" />
-          <folding>
-            <marker date="1547388427476" expanded="false" signature="6:152" ph="..." />
-            <marker date="1547388427476" expanded="true" signature="198:1372" ph="{...}" />
-            <marker date="1547388427476" expanded="true" signature="254:1370" ph="{...}" />
-            <marker date="1547388427476" expanded="true" signature="438:544" ph="{...}" />
-            <marker date="1547388427476" expanded="true" signature="593:782" ph="{...}" />
-            <marker date="1547388427476" expanded="true" signature="823:907" ph="{...}" />
-            <marker date="1547388427476" expanded="true" signature="950:1033" ph="{...}" />
-            <marker date="1547388427476" expanded="true" signature="1082:1271" ph="{...}" />
-            <marker date="1547388427476" expanded="true" signature="1308:1364" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PersonApi/Business/Implementations/BookBusinessImpl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-          <folding>
-            <marker date="1547393835878" expanded="false" signature="6:152" ph="..." />
-            <marker date="1547393835878" expanded="true" signature="198:1322" ph="{...}" />
-            <marker date="1547393835878" expanded="true" signature="250:1320" ph="{...}" />
-            <marker date="1547393835878" expanded="true" signature="426:530" ph="{...}" />
-            <marker date="1547393835878" expanded="true" signature="573:752" ph="{...}" />
-            <marker date="1547393835878" expanded="true" signature="791:875" ph="{...}" />
-            <marker date="1547393835878" expanded="true" signature="916:999" ph="{...}" />
-            <marker date="1547393835878" expanded="true" signature="1042:1221" ph="{...}" />
-            <marker date="1547393835878" expanded="true" signature="1258:1314" ph="{...}" />
+            <marker date="1547412885616" expanded="false" signature="6:94" ph="..." />
+            <marker date="1547412885616" expanded="true" signature="122:453" ph="{...}" />
+            <marker date="1547412885616" expanded="true" signature="180:451" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -896,20 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PersonApi/Controllers/PersonsController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="63" selection-end-column="30" />
-          <folding>
-            <marker date="1547407493529" expanded="true" signature="6:180" ph="..." />
-            <marker date="1547407493529" expanded="true" signature="213:2250" ph="{...}" />
-            <marker date="1547407493529" expanded="true" signature="345:2248" ph="{...}" />
-            <marker date="1547407493529" expanded="true" signature="1074:1239" ph="{...}" />
-            <marker date="1547407493529" expanded="true" signature="2150:2242" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/9e/2e2f2ab0/ObjectMethodExecutor.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -942,133 +922,338 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PersonApi/Data/Converters/BookConverter.cs">
+    <entry file="file://$PROJECT_DIR$/PersonApi/Hypermedia/BookEnricher.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="180">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding>
-            <marker date="1547393271023" expanded="false" signature="6:101" ph="..." />
-            <marker date="1547393271023" expanded="true" signature="138:1383" ph="{...}" />
-            <marker date="1547393271023" expanded="true" signature="218:1381" ph="{...}" />
-            <marker date="1547393271023" expanded="true" signature="265:588" ph="{...}" />
-            <marker date="1547393271023" expanded="true" signature="367:577" ph="{...}" />
-            <marker date="1547393271023" expanded="true" signature="638:965" ph="{...}" />
-            <marker date="1547393271023" expanded="true" signature="744:954" ph="{...}" />
-            <marker date="1547393271023" expanded="true" signature="1023:1164" ph="{...}" />
-            <marker date="1547393271023" expanded="true" signature="1232:1375" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PersonApi/Data/Converters/PersonConverter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding>
-            <marker date="1547349817132" expanded="false" signature="6:135" ph="..." />
-            <marker date="1547349817132" expanded="true" signature="172:1453" ph="{...}" />
-            <marker date="1547349817132" expanded="true" signature="262:1451" ph="{...}" />
-            <marker date="1547349817132" expanded="true" signature="313:648" ph="{...}" />
-            <marker date="1547349817132" expanded="true" signature="419:637" ph="{...}" />
-            <marker date="1547349817132" expanded="true" signature="710:853" ph="{...}" />
-            <marker date="1547349817132" expanded="true" signature="899:1238" ph="{...}" />
-            <marker date="1547349817132" expanded="true" signature="1009:1227" ph="{...}" />
-            <marker date="1547349817132" expanded="true" signature="1300:1445" ph="{...}" />
+            <marker date="1547412885633" expanded="true" signature="6:109" ph="..." />
+            <marker date="1547412885633" expanded="true" signature="141:1544" ph="{...}" />
+            <marker date="1547412885633" expanded="true" signature="213:1542" ph="{...}" />
+            <marker date="1547412885633" expanded="true" signature="301:1536" ph="{...}" />
+            <marker date="1547412885633" expanded="true" signature="477:689" ph="{...}" />
+            <marker date="1547412885633" expanded="true" signature="753:967" ph="{...}" />
+            <marker date="1547412885633" expanded="true" signature="1031:1244" ph="{...}" />
+            <marker date="1547412885633" expanded="true" signature="1308:1499" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PersonApi/Hypermedia/PersonEnricher.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        <state relative-caret-position="165">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding>
-            <marker date="1547403686667" expanded="true" signature="6:109" ph="..." />
-            <marker date="1547403686667" expanded="true" signature="141:1564" ph="{...}" />
-            <marker date="1547403686667" expanded="true" signature="217:1562" ph="{...}" />
-            <marker date="1547403686667" expanded="true" signature="307:1556" ph="{...}" />
-            <marker date="1547403686667" expanded="true" signature="491:703" ph="{...}" />
-            <marker date="1547403686667" expanded="true" signature="769:983" ph="{...}" />
-            <marker date="1547403686667" expanded="true" signature="1049:1262" ph="{...}" />
-            <marker date="1547403686667" expanded="true" signature="1328:1519" ph="{...}" />
+            <marker date="1547412885643" expanded="true" signature="6:109" ph="..." />
+            <marker date="1547412885643" expanded="true" signature="141:1552" ph="{...}" />
+            <marker date="1547412885643" expanded="true" signature="217:1550" ph="{...}" />
+            <marker date="1547412885643" expanded="true" signature="307:1544" ph="{...}" />
+            <marker date="1547412885643" expanded="true" signature="485:697" ph="{...}" />
+            <marker date="1547412885643" expanded="true" signature="761:975" ph="{...}" />
+            <marker date="1547412885643" expanded="true" signature="1039:1252" ph="{...}" />
+            <marker date="1547412885643" expanded="true" signature="1316:1507" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonApi/Repository/Generics/IRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <marker date="1547333995690" expanded="false" signature="6:62" ph="..." />
+            <marker date="1547333995690" expanded="true" signature="103:345" ph="{...}" />
+            <marker date="1547333995690" expanded="true" signature="162:343" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonApi/Repository/Generics/GenericRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+          <folding>
+            <marker date="1547412885653" expanded="false" signature="6:164" ph="..." />
+            <marker date="1547412885653" expanded="true" signature="205:2006" ph="{...}" />
+            <marker date="1547412885653" expanded="true" signature="283:2004" ph="{...}" />
+            <marker date="1547412885653" expanded="true" signature="436:529" ph="{...}" />
+            <marker date="1547412885653" expanded="true" signature="562:812" ph="{...}" />
+            <marker date="1547412885653" expanded="true" signature="588:691" ph="{...}" />
+            <marker date="1547412885653" expanded="true" signature="723:776" ph="{...}" />
+            <marker date="1547412885653" expanded="true" signature="848:934" ph="{...}" />
+            <marker date="1547412885653" expanded="true" signature="968:1025" ph="{...}" />
+            <marker date="1547412885653" expanded="true" signature="1058:1468" ph="{...}" />
+            <marker date="1547412885653" expanded="true" signature="1209:1347" ph="{...}" />
+            <marker date="1547412885653" expanded="true" signature="1379:1432" ph="{...}" />
+            <marker date="1547412885653" expanded="true" signature="1505:1886" ph="{...}" />
+            <marker date="1547412885653" expanded="true" signature="1603:1791" ph="{...}" />
+            <marker date="1547412885653" expanded="true" signature="1653:1777" ph="{...}" />
+            <marker date="1547412885653" expanded="true" signature="1823:1876" ph="{...}" />
+            <marker date="1547412885653" expanded="true" signature="1924:1998" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://61fc0a6b-3d2e-49ea-ad9f-2301c2324d2b/schema/rest_dotnetcore/table/books">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonApi/Controllers/PersonsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="57" column="85" lean-forward="true" selection-start-line="57" selection-start-column="85" selection-end-line="57" selection-end-column="85" />
+          <folding>
+            <marker date="1547412885674" expanded="false" signature="6:180" ph="..." />
+            <marker date="1547412885674" expanded="true" signature="213:2359" ph="{...}" />
+            <marker date="1547412885674" expanded="true" signature="345:2357" ph="{...}" />
+            <marker date="1547412885674" expanded="true" signature="1131:1296" ph="{...}" />
+            <marker date="1547412885674" expanded="true" signature="2259:2351" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonApi/Business/IPersonBusiness.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <marker date="1547412885799" expanded="false" signature="6:59" ph="..." />
+            <marker date="1547412885799" expanded="true" signature="88:329" ph="{...}" />
+            <marker date="1547412885799" expanded="true" signature="127:327" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonApi/Business/IBookBusiness.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <marker date="1547412885789" expanded="false" signature="6:59" ph="..." />
+            <marker date="1547412885789" expanded="true" signature="88:311" ph="{...}" />
+            <marker date="1547412885789" expanded="true" signature="125:309" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonApi/Data/Converters/BookConverter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <marker date="1547412885746" expanded="false" signature="6:101" ph="..." />
+            <marker date="1547412885746" expanded="true" signature="138:1365" ph="{...}" />
+            <marker date="1547412885746" expanded="true" signature="218:1363" ph="{...}" />
+            <marker date="1547412885746" expanded="true" signature="265:592" ph="{...}" />
+            <marker date="1547412885746" expanded="true" signature="371:581" ph="{...}" />
+            <marker date="1547412885746" expanded="true" signature="650:793" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonApi/Data/Converters/PersonConverter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <marker date="1547412885754" expanded="false" signature="6:101" ph="..." />
+            <marker date="1547412885754" expanded="true" signature="138:1419" ph="{...}" />
+            <marker date="1547412885754" expanded="true" signature="228:1417" ph="{...}" />
+            <marker date="1547412885754" expanded="true" signature="279:618" ph="{...}" />
+            <marker date="1547412885754" expanded="true" signature="389:607" ph="{...}" />
+            <marker date="1547412885754" expanded="true" signature="680:825" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonApi/Business/Implementations/PersonBusinessImpl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+          <folding>
+            <marker date="1547412885780" expanded="false" signature="6:152" ph="..." />
+            <marker date="1547412885780" expanded="true" signature="198:1372" ph="{...}" />
+            <marker date="1547412885780" expanded="true" signature="254:1370" ph="{...}" />
+            <marker date="1547412885780" expanded="true" signature="438:544" ph="{...}" />
+            <marker date="1547412885780" expanded="true" signature="593:782" ph="{...}" />
+            <marker date="1547412885780" expanded="true" signature="823:907" ph="{...}" />
+            <marker date="1547412885780" expanded="true" signature="950:1033" ph="{...}" />
+            <marker date="1547412885780" expanded="true" signature="1082:1271" ph="{...}" />
+            <marker date="1547412885780" expanded="true" signature="1308:1364" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://61fc0a6b-3d2e-49ea-ad9f-2301c2324d2b/schema/rest_dotnetcore/table/persons">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PersonApi/Data/VO/PersonVO.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="47" />
+        <state relative-caret-position="135">
+          <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
           <folding>
-            <marker date="1547407964156" expanded="true" signature="6:92" ph="..." />
-            <marker date="1547407964156" expanded="true" signature="121:764" ph="{...}" />
-            <marker date="1547407964156" expanded="true" signature="190:762" ph="{...}" />
+            <marker date="1547412885737" expanded="false" signature="6:92" ph="..." />
+            <marker date="1547412885737" expanded="true" signature="121:655" ph="{...}" />
+            <marker date="1547412885737" expanded="true" signature="190:653" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PersonApi/Data/VO/BookVO.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state relative-caret-position="330">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
-            <marker date="1547409482399" expanded="true" signature="6:106" ph="..." />
-            <marker date="1547409482399" expanded="true" signature="135:731" ph="{...}" />
-            <marker date="1547409482399" expanded="true" signature="188:729" ph="{...}" />
+            <marker date="1547412885728" expanded="true" signature="6:106" ph="..." />
+            <marker date="1547412885728" expanded="true" signature="135:636" ph="{...}" />
+            <marker date="1547412885728" expanded="true" signature="202:634" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PersonApi/Hypermedia/BookEnricher.cs">
+    <entry file="file://$PROJECT_DIR$/PersonApi/Business/Implementations/BookBusinessImpl.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="600">
+          <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
           <folding>
-            <marker date="1547409592607" expanded="true" signature="6:109" ph="..." />
-            <marker date="1547409592607" expanded="true" signature="141:1556" ph="{...}" />
-            <marker date="1547409592607" expanded="true" signature="213:1554" ph="{...}" />
-            <marker date="1547409592607" expanded="true" signature="301:1548" ph="{...}" />
-            <marker date="1547409592607" expanded="true" signature="483:695" ph="{...}" />
-            <marker date="1547409592607" expanded="true" signature="761:975" ph="{...}" />
-            <marker date="1547409592607" expanded="true" signature="1041:1254" ph="{...}" />
-            <marker date="1547409592607" expanded="true" signature="1320:1511" ph="{...}" />
+            <marker date="1547412885763" expanded="true" signature="6:152" ph="..." />
+            <marker date="1547412885763" expanded="true" signature="198:1322" ph="{...}" />
+            <marker date="1547412885763" expanded="true" signature="250:1320" ph="{...}" />
+            <marker date="1547412885763" expanded="true" signature="426:530" ph="{...}" />
+            <marker date="1547412885763" expanded="true" signature="573:752" ph="{...}" />
+            <marker date="1547412885763" expanded="true" signature="791:875" ph="{...}" />
+            <marker date="1547412885763" expanded="true" signature="916:999" ph="{...}" />
+            <marker date="1547412885763" expanded="true" signature="1042:1221" ph="{...}" />
+            <marker date="1547412885763" expanded="true" signature="1258:1314" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PersonApi/Controllers/BooksController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="60" column="46" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+        <state relative-caret-position="345">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
           <folding>
-            <marker date="1547409074922" expanded="true" signature="8:182" ph="..." />
-            <marker date="1547409074922" expanded="true" signature="215:2171" ph="{...}" />
-            <marker date="1547409074922" expanded="true" signature="345:2169" ph="{...}" />
-            <marker date="1547409074922" expanded="true" signature="1051:1212" ph="{...}" />
-            <marker date="1547409074922" expanded="true" signature="2073:2163" ph="{...}" />
+            <marker date="1547412885810" expanded="true" signature="6:180" ph="..." />
+            <marker date="1547412885810" expanded="true" signature="213:2314" ph="{...}" />
+            <marker date="1547412885810" expanded="true" signature="341:2312" ph="{...}" />
+            <marker date="1547412885810" expanded="true" signature="461:523" ph="{...}" />
+            <marker date="1547412885810" expanded="true" signature="779:847" ph="{...}" />
+            <marker date="1547412885810" expanded="true" signature="1112:1273" ph="{...}" />
+            <marker date="1547412885810" expanded="true" signature="1516:1689" ph="{...}" />
+            <marker date="1547412885810" expanded="true" signature="1930:2001" ph="{...}" />
+            <marker date="1547412885810" expanded="true" signature="2216:2306" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonApi/Repository/IPersonRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <marker date="1547219654446" expanded="false" signature="6:57" ph="..." />
+            <marker date="1547219654446" expanded="true" signature="89:347" ph="{...}" />
+            <marker date="1547219654446" expanded="true" signature="130:345" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonApi/Repository/IBookRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <marker date="1547413215198" expanded="true" signature="6:57" ph="..." />
+            <marker date="1547413215198" expanded="true" signature="89:329" ph="{...}" />
+            <marker date="1547413215198" expanded="true" signature="128:327" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonApi/Repository/Implementations/PersonRepositoryImpl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="101" column="12" lean-forward="true" selection-start-line="101" selection-start-column="12" selection-end-line="103" selection-end-column="14" />
+          <folding>
+            <marker date="1547346059857" expanded="false" signature="6:122" ph="..." />
+            <marker date="1547346059857" expanded="true" signature="170:2564" ph="{...}" />
+            <marker date="1547346059857" expanded="true" signature="230:2562" ph="{...}" />
+            <marker date="1547346059857" expanded="true" signature="343:395" ph="{...}" />
+            <marker date="1547346059857" expanded="true" signature="440:698" ph="{...}" />
+            <marker date="1547346059857" expanded="true" signature="466:603" ph="{...}" />
+            <marker date="1547346059857" expanded="true" signature="635:688" ph="{...}" />
+            <marker date="1547346059857" expanded="true" signature="739:1080" ph="{...}" />
+            <marker date="1547346059857" expanded="true" signature="765:947" ph="{...}" />
+            <marker date="1547346059857" expanded="true" signature="979:1070" ph="{...}" />
+            <marker date="1547346059857" expanded="true" signature="1119:1395" ph="{...}" />
+            <marker date="1547346059857" expanded="true" signature="1145:1262" ph="{...}" />
+            <marker date="1547346059857" expanded="true" signature="1294:1385" ph="{...}" />
+            <marker date="1547346059857" expanded="true" signature="1440:1950" ph="{...}" />
+            <marker date="1547346059857" expanded="true" signature="1516:1817" ph="{...}" />
+            <marker date="1547346059857" expanded="true" signature="1849:1940" ph="{...}" />
+            <marker date="1547346059857" expanded="true" signature="1987:2405" ph="{...}" />
+            <marker date="1547346059857" expanded="true" signature="2013:2274" ph="{...}" />
+            <marker date="1547346059857" expanded="true" signature="2306:2395" ph="{...}" />
+            <marker date="1547346059857" expanded="true" signature="2443:2556" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonApi/Repository/Implementations/BookRepositoryImpl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding>
+            <marker date="1547413410749" expanded="true" signature="6:122" ph="..." />
+            <marker date="1547413410749" expanded="true" signature="170:2482" ph="{...}" />
+            <marker date="1547413410749" expanded="true" signature="226:2480" ph="{...}" />
+            <marker date="1547413410749" expanded="true" signature="346:398" ph="{...}" />
+            <marker date="1547413410749" expanded="true" signature="438:692" ph="{...}" />
+            <marker date="1547413410749" expanded="true" signature="464:597" ph="{...}" />
+            <marker date="1547413410749" expanded="true" signature="629:682" ph="{...}" />
+            <marker date="1547413410749" expanded="true" signature="731:1066" ph="{...}" />
+            <marker date="1547413410749" expanded="true" signature="757:933" ph="{...}" />
+            <marker date="1547413410749" expanded="true" signature="965:1056" ph="{...}" />
+            <marker date="1547413410749" expanded="true" signature="1103:1335" ph="{...}" />
+            <marker date="1547413410749" expanded="true" signature="1129:1240" ph="{...}" />
+            <marker date="1547413410749" expanded="true" signature="1272:1325" ph="{...}" />
+            <marker date="1547413410749" expanded="true" signature="1374:1874" ph="{...}" />
+            <marker date="1547413410749" expanded="true" signature="1448:1741" ph="{...}" />
+            <marker date="1547413410749" expanded="true" signature="1773:1864" ph="{...}" />
+            <marker date="1547413410749" expanded="true" signature="1911:2325" ph="{...}" />
+            <marker date="1547413410749" expanded="true" signature="1937:2194" ph="{...}" />
+            <marker date="1547413410749" expanded="true" signature="2226:2315" ph="{...}" />
+            <marker date="1547413410749" expanded="true" signature="2363:2474" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PersonApi/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="106" column="14" lean-forward="true" selection-start-line="106" selection-start-column="14" selection-end-line="106" selection-end-column="14" />
+        <state relative-caret-position="926">
+          <caret line="99" column="66" selection-start-line="99" selection-start-column="66" selection-end-line="99" selection-end-column="66" />
           <folding>
-            <marker date="1547409719524" expanded="false" signature="6:762" ph="..." />
-            <marker date="1547409719524" expanded="true" signature="783:4770" ph="{...}" />
-            <marker date="1547409719524" expanded="true" signature="810:4768" ph="{...}" />
-            <marker date="1547409719524" expanded="true" signature="1020:1154" ph="{...}" />
-            <marker date="1547409719524" expanded="true" signature="1378:3906" ph="{...}" />
-            <marker date="1547409719524" expanded="true" signature="1643:2180" ph="{...}" />
-            <marker date="1547409719524" expanded="true" signature="1980:2122" ph="{...}" />
-            <marker date="1547409719524" expanded="true" signature="2216:2356" ph="{...}" />
-            <marker date="1547409719524" expanded="true" signature="2396:2751" ph="{...}" />
-            <marker date="1547409719524" expanded="true" signature="3238:3509" ph="{...}" />
-            <marker date="1547409719524" expanded="true" signature="3360:3493" ph="{...}" />
-            <marker date="1547409719524" expanded="true" signature="4124:4762" ph="{...}" />
-            <marker date="1547409719524" expanded="true" signature="4313:4419" ph="{...}" />
-            <marker date="1547409719524" expanded="true" signature="4589:4750" ph="{...}" />
+            <marker date="1547413436493" expanded="false" signature="6:650" ph="..." />
+            <marker date="1547413436493" expanded="true" signature="671:4653" ph="{...}" />
+            <marker date="1547413436493" expanded="true" signature="698:4651" ph="{...}" />
+            <marker date="1547413436493" expanded="true" signature="908:1042" ph="{...}" />
+            <marker date="1547413436493" expanded="true" signature="1266:3847" ph="{...}" />
+            <marker date="1547413436493" expanded="true" signature="1531:2068" ph="{...}" />
+            <marker date="1547413436493" expanded="true" signature="1868:2010" ph="{...}" />
+            <marker date="1547413436493" expanded="true" signature="2104:2244" ph="{...}" />
+            <marker date="1547413436493" expanded="true" signature="2284:2686" ph="{...}" />
+            <marker date="1547413436493" expanded="true" signature="3149:3416" ph="{...}" />
+            <marker date="1547413436493" expanded="true" signature="3269:3400" ph="{...}" />
+            <marker date="1547413436493" expanded="true" signature="4065:4645" ph="{...}" />
+            <marker date="1547413436493" expanded="true" signature="4488:4633" ph="{...}" />
           </folding>
         </state>
       </provider>

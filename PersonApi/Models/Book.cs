@@ -14,6 +14,5 @@ namespace PersonApi.Models
         [Column("price")] public decimal Price { get; set; }
 
         [Column("launch_date")] public DateTime LaunchDate { get; set; }
-        
     }
 }

@@ -1,5 +1,3 @@
-
-
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using PersonApi.Business;
@@ -9,13 +7,16 @@ using Tapioca.HATEOAS;
 
 namespace PersonApi.Controllers
 {
-    [ApiVersion("1.0")]
-    [Route("api/v{version:apiVersion}/[controller]")]
+    [ApiVersion("1")]
+    [Route("api/[controller]/v{version:apiVersion}")]
     public class BooksController : ControllerBase
     {
         private readonly IBookBusiness _bookBusiness;
 
-        public BooksController(IBookBusiness bookBusiness) => _bookBusiness = bookBusiness;
+        public BooksController(IBookBusiness bookBusiness)
+        {
+            _bookBusiness = bookBusiness;
+        }
 
         [HttpGet]
         [SwaggerResponse(200, Type = typeof(List<PersonVO>))]
@@ -23,7 +24,10 @@ namespace PersonApi.Controllers
         [SwaggerResponse(400)]
         [SwaggerResponse(401)]
         [TypeFilter(typeof(HyperMediaFilter))]
-        public IActionResult Get() => Ok(_bookBusiness.FindAll());
+        public IActionResult Get()
+        {
+            return Ok(_bookBusiness.FindAll());
+        }
 
         [HttpGet("{id}")]
         [SwaggerResponse(200, Type = typeof(PersonVO))]
@@ -43,16 +47,22 @@ namespace PersonApi.Controllers
         [SwaggerResponse(400)]
         [SwaggerResponse(401)]
         [TypeFilter(typeof(HyperMediaFilter))]
-        public IActionResult Post([FromBody] BookVO book) => book == null
-            ? (IActionResult) BadRequest()
-            : Ok(new ObjectResult(_bookBusiness.Create(book)));
-    
+        public IActionResult Post([FromBody] BookVO book)
+        {
+            return book == null
+                ? (IActionResult) BadRequest()
+                : Ok(new ObjectResult(_bookBusiness.Create(book)).Value);
+        }
+
         [HttpPut]
         [SwaggerResponse(202, Type = typeof(PersonVO))]
         [SwaggerResponse(400)]
         [SwaggerResponse(401)]
         [TypeFilter(typeof(HyperMediaFilter))]
-        public IActionResult Put([FromBody] BookVO book) => Ok(_bookBusiness.Update(book));
+        public IActionResult Put([FromBody] BookVO book)
+        {
+            return Ok(_bookBusiness.Update(book));
+        }
 
         [HttpDelete("{id}")]
         [SwaggerResponse(204)]

@@ -46,10 +46,10 @@ namespace PersonApi.Repository.Generics
         public T Update(T item)
         {
             if (!Exists(item.Id)) return null;
+            var result = dataset.SingleOrDefault(i => i.Id.Equals(item.Id));
 
             try
             {
-                var result = dataset.SingleOrDefault(i => i.Id.Equals(item.Id));
                 _context.Entry(result).CurrentValues.SetValues(item);
                 _context.SaveChanges();
             }

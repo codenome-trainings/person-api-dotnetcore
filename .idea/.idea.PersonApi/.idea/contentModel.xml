@@ -13,14 +13,17 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Business" t="Include">
           <e p="IBookBusiness.cs" t="Include" />
+          <e p="ILoginBusiness.cs" t="Include" />
           <e p="Implementations" t="Include">
             <e p="BookBusinessImpl.cs" t="Include" />
+            <e p="LoginBusinessImpl.cs" t="Include" />
             <e p="PersonBusinessImpl.cs" t="Include" />
           </e>
           <e p="IPersonBusiness.cs" t="Include" />
         </e>
         <e p="Controllers" t="Include">
           <e p="BooksController.cs" t="Include" />
+          <e p="LoginController.cs" t="Include" />
           <e p="PersonsController.cs" t="Include" />
         </e>
         <e p="Data" t="Include">
@@ -30,10 +33,12 @@
           <e p="Converters" t="Include">
             <e p="BookConverter.cs" t="Include" />
             <e p="PersonConverter.cs" t="Include" />
+            <e p="UserConverter.cs" t="Include" />
           </e>
           <e p="VO" t="Include">
             <e p="BookVO.cs" t="Include" />
             <e p="PersonVO.cs" t="Include" />
+            <e p="UserVO.cs" t="Include" />
           </e>
         </e>
         <e p="db" t="Include">
@@ -44,6 +49,7 @@
             <e p="V1_0_8__Reinsert_data_in_books.sql" t="Include" />
           </e>
           <e p="migrations" t="Include">
+            <e p="V1_0_11__Alter_table_user.sql" t="Include" />
             <e p="V1_0_1__Create_Table_Persons.sql" t="Include" />
             <e p="V1_0_2__Alter_Table_Persons.sql" t="Include" />
             <e p="V1_0_3__Create_table_books.sql" t="Include" />
@@ -66,6 +72,7 @@
             <e p="MySQLContext.cs" t="Include" />
           </e>
           <e p="Person.cs" t="Include" />
+          <e p="User.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -88,8 +95,16 @@
           <e p="Implementations" t="Include">
             <e p="BookRepositoryImpl.cs" t="Include" />
             <e p="PersonRepositoryImpl.cs" t="Include" />
+            <e p="UserRepositoryImpl.cs" t="Include" />
           </e>
           <e p="IPersonRepository.cs" t="Include" />
+          <e p="IUserRepository.cs" t="Include" />
+        </e>
+        <e p="Security" t="Include">
+          <e p="Configuration" t="Include">
+            <e p="SigningConfigurations.cs" t="Include" />
+            <e p="TokenConfiguration.cs" t="Include" />
+          </e>
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="utils" t="Include">

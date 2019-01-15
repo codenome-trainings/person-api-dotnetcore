@@ -35,7 +35,9 @@ namespace PersonApi.Repository.Generics
 
         public T FindById(long id)
         {
-            return dataset.SingleOrDefault(i => i.Id.Equals(id));
+            var result = dataset.SingleOrDefault(i => i.Id.Equals(id));
+            if (result == null) return null;
+            return result;
         }
 
         public List<T> FindAll()

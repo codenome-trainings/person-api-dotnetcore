@@ -13,9 +13,11 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Business" t="Include">
           <e p="IBookBusiness.cs" t="Include" />
+          <e p="IFileBusiness.cs" t="Include" />
           <e p="ILoginBusiness.cs" t="Include" />
           <e p="Implementations" t="Include">
             <e p="BookBusinessImpl.cs" t="Include" />
+            <e p="FileBusinessImpl.cs" t="Include" />
             <e p="LoginBusinessImpl.cs" t="Include" />
             <e p="PersonBusinessImpl.cs" t="Include" />
           </e>
@@ -23,6 +25,7 @@
         </e>
         <e p="Controllers" t="Include">
           <e p="BooksController.cs" t="Include" />
+          <e p="FilesController.cs" t="Include" />
           <e p="LoginController.cs" t="Include" />
           <e p="PersonsController.cs" t="Include" />
         </e>
@@ -44,6 +47,7 @@
         <e p="db" t="Include">
           <e p="dataset" t="Include">
             <e p="V1_0_10__Insert_data_in_users.sql" t="Include" />
+            <e p="V1_0_12__insert_data_in_person.sql" t="Include" />
             <e p="V1_0_4__Insert_data_in_books.sql" t="Include" />
             <e p="V1_0_5__Insert_data_in_persons.sql" t="Include" />
             <e p="V1_0_8__Reinsert_data_in_books.sql" t="Include" />
@@ -81,6 +85,9 @@
             </e>
           </e>
         </e>
+        <e p="other" t="Include">
+          <e p="Profile.pdf" t="Include" />
+        </e>
         <e p="PersonApi.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
@@ -89,6 +96,7 @@
         <e p="Repository" t="Include">
           <e p="Generics" t="Include">
             <e p="GenericRepository.cs" t="Include" />
+            <e p="IPersonRepository.cs" t="Include" />
             <e p="IRepository.cs" t="Include" />
           </e>
           <e p="IBookRepository.cs" t="Include" />
@@ -97,7 +105,6 @@
             <e p="PersonRepositoryImpl.cs" t="Include" />
             <e p="UserRepositoryImpl.cs" t="Include" />
           </e>
-          <e p="IPersonRepository.cs" t="Include" />
           <e p="IUserRepository.cs" t="Include" />
         </e>
         <e p="Security" t="Include">

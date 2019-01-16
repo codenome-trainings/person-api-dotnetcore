@@ -1,107 +1,36 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using PersonApi.Models;
 using PersonApi.Models.Context;
+using PersonApi.Repository.Generics;
 
 namespace PersonApi.Repository.Implementations
 {
-    public class PersonRepositoryImpl : IPersonRepository
+    public class PersonRepositoryImpl : GenericRepository<Person>, IPersonRepository
     {
-        private readonly MySQLContext _context;
 
-        public PersonRepositoryImpl(MySQLContext context)
+        public PersonRepositoryImpl(MySQLContext context) : base (context)
         {
-            _context = context;
         }
 
-        public Person Create(Person person)
+        public List<Person> FindByName(string firstName, string lastName)
         {
-            try
+            if (!string.IsNullOrEmpty(firstName) && !string.IsNullOrEmpty(lastName))
             {
-                _context.Add(person);
-                _context.SaveChanges();
-                return person;
+                return _context.Persons.Where(p => p.FirstName.Contains(firstName) && p.LastName.Contains(firstName)).ToList();            
             }
-            catch (Exception e)
+            else if (string.IsNullOrEmpty(firstName) && !string.IsNullOrEmpty(lastName))
             {
-                throw e;
+                return _context.Persons.Where(p => p.LastName.Contains(firstName)).ToList();
             }
-        }
-
-        public Person FindById(long id)
-        {
-            try
+            else if (!string.IsNullOrEmpty(firstName) && string.IsNullOrEmpty(lastName))
             {
-                var person = _context.Persons.SingleOrDefault(
-                    p => p.Id.Equals(id)
-                );
-                return person;
+                return _context.Persons.Where((p) => p.FirstName.Contains(firstName)).ToList();
             }
-            catch (Exception e)
+            else
             {
-                Console.WriteLine(e);
-                throw e;
+                return _context.Persons.ToList();
             }
-        }
-
-        public List<Person> FindAll()
-        {
-            try
-            {
-                var persons = _context.Persons.ToList();
-                return persons;
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                throw e;
-            }
-        }
-
-        public Person Update(Person person)
-        {
-            if (!Exists(person.Id)) return null;
-
-            try
-            {
-                var result = _context.Persons.SingleOrDefault(
-                    p => p.Id.Equals(person.Id)
-                );
-                _context.Entry(result).CurrentValues.SetValues(person);
-                _context.SaveChanges();
-                return result;
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                throw e;
-            }
-        }
-
-        public void Delete(long id)
-        {
-            try
-            {
-                var result = _context.Persons.SingleOrDefault(
-                    p => p.Id.Equals(id)
-                );
-
-                if (result != null) _context.Persons.Remove(result);
-                _context.SaveChanges();
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                throw;
-            }
-        }
-
-        public bool Exists(long? id)
-        {
-            return _context.Persons.Any(
-                p => p.Id.Equals(id)
-            );
         }
     }
 }

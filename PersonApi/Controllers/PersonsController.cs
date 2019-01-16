@@ -48,6 +48,32 @@ namespace PersonApi.Controllers
 
             return response;
         }
+        
+        [HttpGet("{find-by-name}")]
+        [SwaggerResponse(200, Type = typeof(PersonVO))]
+        [SwaggerResponse(204)]
+        [SwaggerResponse(400)]
+        [SwaggerResponse(404)]
+        [SwaggerResponse(401)]
+        [TypeFilter(typeof(HyperMediaFilter))]
+        public IActionResult FindByName([FromQuery] string firstname, [FromQuery] string lastname)
+        {
+            var response = Ok(_personBusiness.FindByName(firstname, lastname));
+            if (response == null) return NotFound();
+            return response;
+        }
+        
+        [HttpGet("find-with-paged-search/{sortDirection}/{pageSize}/{page}")]
+        [SwaggerResponse(200, Type = typeof(PersonVO))]
+        [SwaggerResponse(204)]
+        [SwaggerResponse(400)]
+        [SwaggerResponse(404)]
+        [SwaggerResponse(401)]
+        [TypeFilter(typeof(HyperMediaFilter))]
+        public IActionResult GetPagedSearch([FromQuery] string name, string sortDirection, int pageSize, int page)
+        {
+            return new ObjectResult(_personBusiness.FindWithPagedSearch(name, sortDirection, pageSize, page));
+        }
 
         [HttpPost]
         [SwaggerResponse(201, Type = typeof(PersonVO))]

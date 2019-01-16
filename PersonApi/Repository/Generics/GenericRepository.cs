@@ -9,7 +9,7 @@ namespace PersonApi.Repository.Generics
 {
     public class GenericRepository<T> : IRepository<T> where T : BaseEntity
     {
-        private readonly MySQLContext _context;
+        protected readonly MySQLContext _context;
         private readonly DbSet<T> dataset;
 
         public GenericRepository(MySQLContext context)
@@ -83,6 +83,29 @@ namespace PersonApi.Repository.Generics
         public bool Exists(long? id)
         {
             return dataset.Any(i => i.Id.Equals(id));
+        }
+
+        public List<T> FindWithPagedSearch(string query)
+        {
+            return dataset.FromSql<T>(query).ToList();
+        }
+
+        public int GetCount(string query)
+        {
+            var result = "";
+
+            using (var connection = _context.Database.GetDbConnection())
+            {
+                connection.Open();
+
+                using (var command = connection.CreateCommand())
+                {
+                    command.CommandText = query;
+                    result = command.ExecuteScalar().ToString();
+                }
+            }
+            
+            return Int32.Parse(result);
         }
     }
 }
